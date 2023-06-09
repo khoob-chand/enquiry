@@ -1,0 +1,36 @@
+.headerstyle{
+    display:flex;
+    justify-content: end;
+}
+.nav-item{
+    margin-right: 20px!important;
+}
+.modalstyle{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.enquiry{
+   
+    border: 1px solid gray;
+    box-shadow: 4px 8px 16px;
+    
+}
+.jumo{
+    background-color:rgb(211, 208, 208);
+}
+textarea{
+    height:150px!important;
+}
+
+@media only screen and (max-width: 992px) {
+    .headerstyle{
+        display:flex;
+        justify-content: start;
+    }
+  }
+  .small{
+    color:red;
+  }
+  .endfooter{
+    margin-top: 14%;
+  }
